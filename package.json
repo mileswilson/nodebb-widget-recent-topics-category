@@ -1,0 +1,19 @@
+{
+  "name": "nodebb-widget-recent-topics-category",
+  "version": "0.0.11",
+  "description": "NodeBB Widget to show recent topics from a category",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mileswilson/nodebb-widget-recent-topics-category.git"
+  },
+  "author": "Miles Wilson <miles@mtwilson.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mileswilson/nodebb-widget-recent-topics-category/issues"
+  },
+  "homepage": "https://github.com/mileswilson/nodebb-widget-recent-topics-category"
+}

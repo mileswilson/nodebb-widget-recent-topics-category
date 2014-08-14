@@ -1,0 +1,19 @@
+{
+    "id": "nodebb-widget-recent-topics-category",
+    "name": "Recent Topics in Category",
+    "description": "Provides a widget showing recent tops in a Category",
+    "url": "https://github.com/psychobunny/nodebb-widget-essentials",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:widget.render:recenttopicscategory", "method": "renderRecentTopicsWidget"
+        },
+        {
+            "hook": "static:app.load", "method": "init"
+        },
+        {
+            "hook": "filter:widgets.getWidgets", "method": "defineWidgets"
+        }
+    ],
+    "templates": "./templates"
+}
